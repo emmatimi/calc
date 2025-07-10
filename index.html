@@ -67,7 +67,7 @@
         function operatorBtnPressed(operator){
             currentOperator = operator;
             value1 = parseInt(document.getElementById("inputBox").value);
-            newLine = true;
+            document.getElementById("inputBox").value = value1 + operator
         }
 
         function equalsBtnPressed(){
